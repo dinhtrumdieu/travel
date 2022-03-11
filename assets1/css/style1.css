@@ -1,0 +1,661 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    position: relative;
+}
+#body-img {
+    position: absolute;
+    z-index: 1;
+    background-image: url(../img/Travel\ Agency\ Landing\ Page\ UI.svg);
+    height: 4026.48px;
+    width: 100%;
+}
+#body-content {
+    position: absolute;
+    z-index: 2;
+}
+body
+#main {
+
+}
+#header {
+    height: 53.19px;
+    left: 142.93px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 47px;
+}
+#nav {
+    display:inline-block;
+    font-size: smaller;}
+#nav li {
+    display:inline-block;
+
+}
+#nav li a {
+    color: #212832;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 20px;
+    display:block;
+
+}
+#nav .nav-arrow {
+    font-size: 14px;
+}
+#header .logo-btn {
+    height: 48.7px;
+    margin-top: 16px;
+    
+
+}
+#header .logo-btn>img {
+    width: 114.91px;
+    line-height: 53.19px;
+}
+#slider {    
+
+}
+    #slider #hero-content{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+
+}
+#slider .desc{
+    position: absolute;
+    width: 50%;
+    left: 10%;
+}
+#slider .desc>h1 {
+    margin: 0;
+    font-size: 100px;
+    color: #181E4B;
+}
+#slider #desc-CTA {
+    display:inline-flex;
+    text-decoration: none;
+    align-items: center;
+    margin-top: -30px;
+} 
+#content .services-heading {
+    text-align: center;
+
+}
+#content .services-heading-1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+} 
+#content .services-heading>h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #5E6282;
+}
+#content .services-heading>h1{
+    color: #14183E;
+    font-family: Volkhov;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#content #category {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 8%;
+}
+.category-plan {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.plan-windown {
+    background: #DF6951;
+    border-radius: 30px 0px 10px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    z-index: 1;
+}
+#category .category-list>h3 {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1E1D4C;
+}
+#category .category-list>p {
+    width: 250px;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #5E6282;
+}
+#category .category-list>img {
+    display: inline;
+    margin-inline-start: 80px;
+}
+#destinations .destinations-card {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+
+}
+.destinations-trip {
+    display: flex;
+    flex-direction: column;
+
+}
+.destinations-trip .trip-body {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: Poppins;
+    font-size: 18px;
+    color: #5E6282;    
+
+}
+.destinations-trip .destinations-icon {
+    font-size: 18px;
+    color: #5E6282;
+    margin-left: 20px;
+}
+#trip-place {
+    display: flex;
+    margin-top: 100px;
+
+}
+#booktrip-list .booktrip-heading>h4 {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E6282;
+    margin: 0;
+}
+#booktrip-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+.destinations-trip .trip-img {
+    border-radius: 24px;
+}
+.destinations-trip .border-trip {
+    background: #ffffff;
+    border-radius: 0px 0px 24px 24px;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    margin-top: -99px;
+    height: 100px;
+    
+}
+#booktrip-list .booktrip-heading>h1 {
+    font-family: Volkhov;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #14183E;
+    margin: 15px 0 31px 0;
+    width: 511px;
+    height: 130px;
+}
+.booktrip-choose {
+}
+.booktrip-value {
+    display: flex;
+    margin: 30px 0 0 0;
+}
+.booktrip-value .choose-value {
+    margin-left: 30px;
+}
+.booktrip-value .choose-value>h3 {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #5E6282;
+    line-height: 0%;
+}
+.booktrip-value .choose-value>p {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #5E6282;
+}
+.greece-oftion {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+
+}
+#booktrip-greece {
+    margin-left: 100px;
+}
+.booktrip-step-1> img {
+    width: 321px;
+    height: 161px;
+    border-radius: 24px;
+    padding: 20px 24px 0 25px;
+
+}
+.greece-oftion> h3 {
+    margin: 26px 0 13px 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    letter-spacing: 0.015em;
+    color: #080809;
+
+}
+.greece-oftion> p {
+    margin: 13px 0 21px 0;
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 124.5%;
+    letter-spacing: -0.005em;
+    color: #84829A;
+}
+.greece-line {
+    display: flex;
+}
+.greece-line .greece-icon-4 {
+    padding-left: 143px;
+
+}
+.greece-line> p {
+    margin: 0 0 0 15px;
+}
+.greece-icon-2 {
+    display: flex;
+
+}
+.greece-icon-2 .greece-icon-row {
+    margin: 0px 18px 30px 0px;
+}
+.greece-line .greece-icon-4 {
+    color: #4152CA;
+}
+.greece-line> p {
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 124.5%;
+    letter-spacing: -0.02em;
+    color: #84829A;
+}
+.greece-line .greece-icon-3 {
+    color: #84829A;
+
+}
+#booktrip-greece .booktrip-time {
+    display: flex;
+    margin-top: 55px;
+
+}
+.booktrip-step {
+    position: relative;
+}
+.booktrip-step-1 {
+    top: 0;
+    position: absolute;
+    background: #FFFFFF;
+    height: 400px;
+    width: 370px;
+    box-shadow: 0px 100px 80px rgb(0 0 0 / 2%), 0px 64.8148px 46.8519px rgb(0 0 0 / 2%), 0px 38.5185px 25.4815px rgb(0 0 0 / 1%), 0px 20px 13px rgb(0 0 0 / 1%), 0px 8.14815px 6.51852px rgb(0 0 0 / 1%), 0px 1.85185px 3.14815px rgb(0 0 0 / 0%);
+    border-radius: 26px;
+}
+.booktrip-circle {
+    width: 440px;
+    height: 367px;
+    background: #59B1E6;
+    opacity: 0.2;
+    filter: blur(50px);
+    position: absolute;
+    top: -59px;
+    left: 44px;
+}
+#testimonials-section {
+    display: flex;
+    margin-left: 185px;
+    margin-right: 89px;
+    margin-top: 120px;
+    width: 1165px;
+    height: 357px;
+}
+#testimonials {
+    width: 50%;
+    margin-left: -60px;
+}
+#section {
+    width: 50%;
+
+}
+#testimonials-class> h4 {
+    width: 128px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #5E6282;
+    margin: 0;
+}
+#testimonials-class> h1 {
+    width: 409px;
+    height: 130px;
+    margin: 8px 0 0 0;
+    font-family: 'Volkhov';
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #14183E;
+}
+#testimonials-class .testimonials-point {
+    width: 87px;
+    height: 12px;
+    margin: 82px 0 0 0;
+}
+#section-comment {
+}
+.section-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+.section-text {
+    position: relative;
+    display: flex;
+}
+.section-chris {
+    display: flex;
+}
+.section-mike {
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgb(0 0 0 / 2%), 0px 64.8148px 46.8519px rgb(0 0 0 / 2%), 0px 38.5185px 25.4815px rgb(0 0 0 / 1%), 0px 20px 13px rgb(0 0 0 / 1%), 0px 8.14815px 6.51852px rgb(0 0 0 / 1%), 0px 1.85185px 3.14815px rgb(0 0 0 / 0%);
+    border-radius: 10px;
+    width: 500px;
+    height: 245px;
+    padding-left: 10px;
+    position: absolute;
+    margin-top: -24px;
+
+}
+.section-mike> p {
+    width: 402px;
+    height: 0px;
+    text-align: justify;
+    font-family: 'Poppins';
+    line-height: 30px;
+    color: #5E6282;
+    margin: 28px 68px 131px 34px;
+}
+.section-mike> h4{
+    margin: 0 0 5px 34px;
+    width: 101px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E6282;
+}
+.section-mike> h6 {
+    margin: 0 0 34px 34px;
+    width: 116px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 21px;
+    color: #5E6282;
+}
+.section-chris {
+    display: block;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    border-radius: 10px;
+    width: 502px;
+    height: 232px;
+    margin-left: 50px;
+    margin-top: 66px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #F7F7F7;
+    padding-left: 34px;
+}
+.section-chris> h4{
+    width: 127px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E6282;
+    margin: 157px 0 6px 34px;
+}
+.section-chris> h6 {
+    width: 127px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 21px;
+    color: #5E6282;
+    margin: 0 0 22px 34px;
+}
+.pagination {
+    margin-top: 12%;
+    margin-left: 50px;
+    width: 14px;
+    height: 71.5px;
+}
+.section-chris-img {
+    display: flex;
+}
+.section-group-img {
+    position: absolute;
+    margin: -55px -20px 0;
+}
+#logo {
+    margin: 6% 0 6% 0;
+}
+#logo #logo-img {
+    width: 1073px;
+    height: 162px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 150px;
+
+}
+#logo-img .logo-group {
+    margin-left: 77px;
+}
+#subscribe {
+    display: flex;
+    position: relative;
+    width: 1170px;
+    height: 407px;
+    margin-left: 6%;
+}
+.mask-icon {
+    position: absolute;
+    z-index: 3;
+    width: 70px;
+    height: 70px;
+    left: 95%;
+    margin-top: -20px;
+}
+.mask-content {
+    width: 1170px;
+    height: 407px;
+    z-index: 2;
+    position: absolute;
+}
+.mask-start {
+    position: absolute;
+    z-index: 1;
+    bottom: -17%;
+    left: 95%;
+}
+#subscribe .mask-content {
+    background-image: url('../img/Border2.svg');
+    background-size: 1170 407;
+}
+.mask-content {
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+}
+.mask-content .mask-content-1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 54px;
+    text-align: center;
+    color: #5E6282;
+    margin: 79px 155px 0 155px;
+}
+.mask-content-cob {
+    justify-content: center;
+    display: flex;
+}
+.mask-content-email {
+    display: flex;
+    align-items: center;
+    width: 421px;
+    height: 68px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.mask-email-icon {
+    margin: 0 14px 0 31px;
+
+}
+.mask-subscribe-click {
+    text-align: center;
+    width: 180px;
+    height: 68px;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+    margin-left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-layout {
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 10%;
+
+}
+.jadoo-logo {
+    width: 207px;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -0.3%;
+}
+.jadoo-logo> h2 {
+    width: 152px;
+    height: 66px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 124.5%;
+    color: #181E4B;
+}
+.jadoo-logo> p {
+    width: 207px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 124.5%;
+    color: #5E6282;
+}
+.nav-columns {
+    display: flex;
+    width: 474px;
+    height: 153px;
+    justify-content: space-between;
+}
+.company {
+    width: 108px;
+    height: 151px;
+}
+.company-heading {
+    width: 108px;
+    height: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 124.5%;
+    color: #080809;
+}
+.company-sup {
+    width: 100px;
+    height: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    color: #5E6282;
+    margin-top: 32px;
+}
+.outbound   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+.social-text> p {
+    width: 173px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 124.5%;
+    letter-spacing: 0.005em;
+    color: #5E6282;
+}
+.social-item {
+    width: 45px;
+    height: 45px;
+    background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    align-content: revert;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#copyrights {
+    padding-top: 5%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+    color: #5E6282;
+}
