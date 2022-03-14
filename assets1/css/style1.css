@@ -3,6 +3,9 @@ html {
 }
 body {
     position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 #body-img {
     position: absolute;
@@ -14,10 +17,7 @@ body {
 #body-content {
     position: absolute;
     z-index: 2;
-}
-body
-#main {
-
+    width: 100%;
 }
 #header {
     height: 53.19px;
@@ -40,6 +40,7 @@ body
     line-height: 40px;
     padding: 0 20px;
     display:block;
+    color: black;
 
 }
 #nav .nav-arrow {
@@ -194,6 +195,8 @@ body
     display: flex;
     flex-direction: column;
     margin-left: 120px;
+    width: 50%;
+    margin-left: 10%;
 }
 .destinations-trip .trip-img {
     border-radius: 24px;
@@ -245,7 +248,8 @@ body
 
 }
 #booktrip-greece {
-    margin-left: 100px;
+    width: 50%;
+
 }
 .booktrip-step-1> img {
     width: 321px;
@@ -332,18 +336,19 @@ body
 }
 #testimonials-section {
     display: flex;
-    margin-left: 185px;
-    margin-right: 89px;
     margin-top: 120px;
-    width: 1165px;
+    width: 100%;
     height: 357px;
+    justify-content: center;
 }
 #testimonials {
     width: 50%;
-    margin-left: -60px;
+    margin-left: 10%;
+
 }
 #section {
     width: 50%;
+    margin-left: 10%;
 
 }
 #testimonials-class> h4 {
@@ -469,16 +474,16 @@ body
     margin: -55px -20px 0;
 }
 #logo {
+    display: flex;
+    justify-content: center;
     margin: 6% 0 6% 0;
+
 }
 #logo #logo-img {
     width: 1073px;
     height: 162px;
     display: flex;
     align-items: center;
-    justify-content: end;
-    margin-left: 150px;
-
 }
 #logo-img .logo-group {
     margin-left: 77px;
@@ -486,38 +491,32 @@ body
 #subscribe {
     display: flex;
     position: relative;
-    width: 1170px;
+    width: 100%;
     height: 407px;
-    margin-left: 6%;
+    justify-content: center;
 }
 .mask-icon {
     position: absolute;
     z-index: 3;
     width: 70px;
     height: 70px;
-    left: 95%;
+    left: 78%;
     margin-top: -20px;
 }
 .mask-content {
-    width: 1170px;
     height: 407px;
     z-index: 2;
     position: absolute;
+    background-size: 100%;
+    width: 1170px;
+    background-image: url('../img/Border2.svg');
+
 }
 .mask-start {
     position: absolute;
     z-index: 1;
     bottom: -17%;
-    left: 95%;
-}
-#subscribe .mask-content {
-    background-image: url('../img/Border2.svg');
-    background-size: 1170 407;
-}
-.mask-content {
-    width: 100%;
-    z-index: 2;
-    position: absolute;
+    left: 78%;
 }
 .mask-content .mask-content-1 {
     font-family: 'Poppins';
